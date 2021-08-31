@@ -1,0 +1,43 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="es" lang="es">
+<head>
+<meta charset="utf-8"></meta>
+<title>English Resources</title>
+<link rel="stylesheet" href="./css/style.css">
+<script src="./js/script.js"></script>
+</head>
+<body>
+<h1>English Resources</h1>
+<form>
+<label>Title: </label>
+<input type="text" name="title" id="title"></input><br />
+<label>Description: </label>
+<input type="text" name="description" id="description"></input><br />
+<label>Comments: </label>
+<input type="text" name="comments" id="comments"></input><br />
+<label>Level: </label>
+<select name="id_level" id="id_level">
+<option value=""></option>
+<option value="1">Low Beginner</option>
+<option value="2">Mid Beginner</option>
+<option value="3">High Beginner</option>
+<option value="4">Low Intermediate</option>
+<option value="5">Mid Intermediate</option>
+<option value="6">High Intermediate</option>
+<option value="7">Advanced</option>
+</select><br />
+<label>Type: </label>
+<select name="type" id="type">
+<option value=""></option>
+<option value="video">Video</option>
+<option value="listenning">Listenning</option>
+</select><br />
+<label>Script: </label><input type="checkbox" id="has_script">&nbsp;
+<label>Grammar: </label><input type="checkbox" id="has_grammar">&nbsp;
+<label>Quiz: </label><input type="checkbox" id="has_quiz">&nbsp;
+<label>Vocabulary: </label><input type="checkbox" id="has_vocabulary"><br />
+<input type="button" id="send" value="Search"></input>
+</form>
+<div id="results"></div>
+</body>
+</html>
