@@ -1,0 +1,15 @@
+v1
+-----------
+-primera versió funcional
+-encara no funciona el filtre de has_script, etc.
+
+v2
+-----------
+-modificació de la bd. Els camps has_script, has_grammar, has_quiz i has_vocabulary van dins de RESOURCE
+-afegim la taula SOURCE
+-filtrem per has_script, etc.
+-edició de comentaris onpage.
+
+v3
+-----------
+-bootstrap. Disseny modern i responsive

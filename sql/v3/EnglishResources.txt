@@ -1,0 +1,593 @@
+*https://www.elllo.org/
+*https://learnenglishteens.britishcouncil.org/skills/listening
+
+
+Nivells de elllo.org:
+Level 1: Low Beginner
+Level 2: Mid Beginner
+Level 3: High Beginner
+Level 4: Low Intermediate
+Level 5: Mid Intermediate
+Level 6: High Intermediate
+Level 7: Advanced
+
+Nivells britishcouncil:
+Beginner A1 listening
+Elementary A2 listening
+Intermediate B1 listening
+Upper Intermediate B2 listening
+Advanced C1 listening
+
+=============
+
+SOURCE (id_source, source)
+LEVEL (id_level, level)
+RESOURCE (id_resource, resource, url, description, comments, id_level, active, has_script, has_grammar, has_quiz, has_vocabulary)
+VIDEO (id_video, id_resource)
+LISTENNING (id_listenning, id_resource)
+
+LEVEL (id_level, level)
+========================
+1;Low Beginner
+2;Mid Beginner
+3;High Beginner
+4;Low Intermediate
+5;Mid Intermediate
+6;High Intermediate
+7;Advanced
+
+RESOURCE (id_resource, resource, url, resume, comments, id_level, active, has_script, has_grammar, has_quiz, has_vocabulary, id_source)
+==================
+
+1;1.01 Be-Verb. Meet the teachers;https://elllo.org/english/grammar/L1-01-AimeeTodd-Intros-BeVerb.htm;Two teachers make introductions and discuss famiy.;;1;true;true;true;true;false;1
+2;1.02 Likes and Dislikes. Likes and Favorites;https://elllo.org/english/grammar/L1-02-NatTodd-Farorites.htm;Two people talks about thiings they like and dislike.;;1;true;true;true;true;false;1
+3;1.03 Basic Verbs. My Weekend;https://elllo.org/english/grammar/L1-03-ShantelTodd-Weekend-BasicVerbs.htm;Two people discuss their weekend routines.;;1;true;true;true;true;false;1
+4;1.04 Colors;https://elllo.org/english/grammar/L1-04-MegTodd-Colors.htm;Two people discuss colors and things with these colors.;;1;true;true;true;true;false;1
+5;1.05 Adjectives. My Hometown;https://elllo.org/english/grammar/L1-05-MegTodd-Cities-Adjective.htm;Two people discuss their hometowns.;;1;true;true;true;true;false;1
+6;1.06 Days of the Week;https://elllo.org/english/grammar/L1-06-MegTodd-Days-of-Week-Busy.htm;Two people talk about what they do during the week.;;1;true;true;true;true;false;1
+7;1.07 Languages. What languages do you speak?;https://elllo.org/english/grammar/L1-07-AbidemiTodd-Languages.htm;Two people discuss languages they speak or want to learn.;;1;true;true;true;true;false;1
+8;1.08 Sentece Patterns. What is a typical day for you?.;https://elllo.org/english/grammar/L1-08-NatTodd-Sentence-Patterns-Schedule.htm;Two people discuss their daily routines;;1;true;true;true;true;false;1
+9;1.09 Subject Pronouns;https://elllo.org/english/grammar/L1-09-ShantelTodd-Celebrities-SubjectPronoun.htm;Two people try to guess some famous people.;;1;true;true;true;true;false;1
+10;1.10 Object Pronouns;https://elllo.org/english/grammar/L1-10-ShantelTodd-Family-ObjectPronouns.htm;Two people discuss how often they meet their family.;;1;true;true;true;true;false;1
+11;1.11 This, That, Those, These. I like that and those!;https://elllo.org/english/grammar/L1-11-NatTodd-This-That-3.htm;Two people talk about some clothes and their watches.;;1;true;true;true;true;false;1
+12;1.12 Adverbs of Intensity. Japan vs. Thailand;https://elllo.org/english/grammar/L1-12-NatTodd-Adjectives.htm;Todd and Natalie talk about living in Japan and Thailand.;;1;true;true;true;true;false;1
+13;1.13 Months and Holidays;https://elllo.org/english/grammar/L1-13-MegTodd-Holidays.htm;Meg and Todd talk about American holidays.;;1;true;true;true;true;false;1
+14;1.14 Ordinals. Class Schedule;https://elllo.org/english/grammar/L1-14Todd-Nat-Ordinals.htm;Two teachers talk about their school schedule.;;1;true;true;true;true;false;1
+15;1.15 Telling Time;http://soundgrammar.com/learn/L1-CEFR-A1/L1-15-telling-time.htm;Four talks about time.;;1;true;true;true;true;false;1
+16;2.01 Be - Present Simple. Favorites;https://elllo.org/english/grammar/L2-01-AimeeTodd-Intros-BeVerb.htm;Aimee and Todd talk about their favorite things.;;2;true;true;true;true;false;1
+17;2.02 Present Simple. Morning Routine;https://elllo.org/english/grammar/L2-02-JohnSarah-PresentSimple-Routine.htm;John and Sarah discuss what they do in the morning.;;2;true;true;true;true;false;1
+18;2.03 Imperatives. Sandwich!;https://elllo.org/english/grammar/L2-03-MegTodd-Sandwich.htm;Meg and Todd share how to make their favorite sandwiches.;;2;true;true;true;true;false;1
+19;2.04 Singular / Plural Nouns. House and Things;https://elllo.org/english/grammar/L2-04-AimeeTodd-House-HowMuch-many.htm;Aimee and Todd talk about all the stuff they have in their homes.;;2;true;true;true;true;false;1
+20;2.05 Adverbs of Frequency. Eating Habits;https://elllo.org/english/grammar/L2-05-DanielHana-Cooking-Adverbs-Frequency.htm;Daniel and Hana discuss their eating and cooking habits.;;2;true;true;true;true;false;1
+21;2.06 Can - Abilities. My Abilities;https://elllo.org/english/grammar/L2-06-Abidemi-Ability.htm;Abidemi talks about things she can and cannot do.;;2;true;true;true;true;false;1
+22;2.07 Be - Was / Were. Life History;https://elllo.org/english/grammar/L2-07-Meg-Was-Were.htm;Meg and Todd talk about times in their lives.;;2;true;true;true;true;false;1
+23;2.08 Transitive Verbs. Fruity Fans;https://elllo.org/english/grammar/L2-08-Transitive-Verbs.htm;Meg talks about eating right and the foods she loves to eat.;;2;true;true;true;true;false;1
+24;2.09 Stative Verbs. What looks good? What tastes goods?;https://elllo.org/english/grammar/L2-09-Stative-Verbs.htm;Two people talk about things they like using stative verbs.;;2;true;true;true;true;false;1
+25;2.10 There is / There are. My Hometown;https://elllo.org/english/grammar/L2-10-SarahJohn-Towns-There-is-are.htm;Sarah and John talk about their hometowns in America.;;2;true;true;true;true;false;1
+26;2.11 Past Tense. Weekend Talk;https://elllo.org/english/grammar/L2-11-KatieTodd-Weekend-PastTense.htm;Katie talks about what she did over the weekend.;;2;true;true;true;true;false;1
+27;2.12 3rd Person Singular. Family Habits;https://elllo.org/english/grammar/L2-12-KatieTodd-Habits-Family.htm;Katies talks about her family and what they often do.;;2;true;true;true;true;false;1
+28;2.13 Any / Some / Enough. Making Breakfast;https://elllo.org/english/grammar/L2-13-KatieTodd-Breakfast-Any-Some.htm;Katie and Todd discuss what they need to make breakfast.;;2;true;true;true;true;false;1
+29;2.14 Can - Requests;http://soundgrammar.com/learn/L2-CEFR-A1/L2-14-Can-Requests.htm;Katie asks Todd about staying at his house.;;2;true;true;true;true;false;1
+30;2.15 Would Like - Ordering;http://soundgrammar.com/learn/L2-CEFR-A1/L2-15-Adverbs-Frequency.htm;Akane orders dinner at a restaurant.;;2;true;true;true;true;false;1
+31;3.01 Present Simple. Saving Money;https://elllo.org/english/grammar/L3-01-present-simple.htm;Two people talk about their spending habits.;;3;true;true;true;true;false;1
+32;3.02 3rd Person Singular. Fit Girlfriend;https://elllo.org/english/grammar/L3-02-third-person-singular.htm;Listen about a man talk about how his girlfriend is very fit.;;3;true;true;true;true;false;1
+33;3.03 Present Continuous. Where is everyone?;https://elllo.org/english/grammar/L3-03-present-continuous.htm;Two people discuss what their family is doing at the moment.;;3;true;true;true;true;false;1
+34;3.04 Will - Future Tense. Holiday Plans;https://elllo.org/english/grammar/L3-04-Future-Will.htm;Sarah and Todd share plans for the holiday break.;;3;true;true;true;true;false;1
+35;3.05 Going to. Plans for the Weekend;https://elllo.org/english/grammar/L3-05-GoingTo-Spain.htm;Two people talk about their plans for the weekend.;;3;true;true;true;true;false;1
+36;3.06 Simple Past Tense;http://soundgrammar.com/learn/L3-CEFR-A2/L3-06-PastTense.htm;Katie talks about what she did on her day off. This lesson looks at the past tense.;;3;true;true;true;true;false;1
+37;3.07 Past Tense - Irregular. Winter Vacation;https://elllo.org/english/grammar/L3-07-Past-Tense-.htm;Listen to two people talk about their vacation.;;3;true;true;true;true;false;1
+38;3.08 Adjectives;https://elllo.org/english/grammar/L3-08-Adjectives.htm;Abidemi and Todd play a word association game.;;3;true;true;true;true;false;1
+39;3.09 Comparatives;https://elllo.org/english/grammar/L3-09-Comparatives.htm;Listen to someone compare two famous cities in California.;;3;true;true;true;true;false;1
+40;3.10 Superlatives;https://elllo.org/english/grammar/L3-10-Superlatives.htm;Todd talks about the best and worst of his hometown.;;3;true;true;true;true;false;1
+41;3.11 Pronouns. Family portrait;https://elllo.org/english/grammar/L3-11-JohnSarah-Family-Pronouns.htm;John talks about his family and how they are unique.;;3;true;true;true;true;false;1
+42;3.12 Can for Permission. House Guest;https://elllo.org/english/grammar/L3-12-KatieTodd-RentHouse-Permission.htm;Listen to two people use the grammar in natural conversation.;;3;true;true;true;true;false;1
+43;3.13 Connectors. Clothes by Season;https://elllo.org/english/grammar/L3-13-Connectors.htm;Meg talks about her clothes that she wears each season.;;3;true;true;true;true;false;1
+44;3.14 Present Continuous. Plans for the Weekend;https://elllo.org/english/grammar/L3-14-Present-Continuous-Future.htm;Two people discuss their plans for Saturday and Sunday.;;3;true;true;true;true;false;1
+45;3.15 Much / Many. Adverbs of Frequency;http://soundgrammar.com/learn/L2-CEFR-A1/L2-15-Adverbs-Frequency.htm;Meg and Todd discuss if they are pack rats;;3;true;true;true;true;false;1
+46;1503 Saving Money;https://elllo.org/english/1501/1503-Abidemi-SavingMoney.htm;Abidemi and Todd discuss spending and money.;;3;true;true;false;true;true;1
+47;1468 My English Town;https://elllo.org/english/1451/1468-Katie-Torquay.htm;Katie talks about her town in England.;;3;true;true;false;true;true;1
+48;1467 My English Family;https://elllo.org/english/1451/1467-Katie-Family.htm;Katie talks about her family.;;3;true;true;false;true;true;1
+49;1504 Love it / Hate it;https://elllo.org/english/1501/1504-MegTodd-FreeTime-Gerunds.htm;Meg and Todd talk about things they like doing.;;3;true;true;false;true;true;1
+50;1502 Pack Rat;https://elllo.org/english/1501/1502-Meg-PackRat-Many-Much.htm;Keeping and throwing away things.;;3;true;true;false;true;true;1
+51;1501 At the Mall;https://elllo.org/english/1501/1501-KatieTodd-MallShops-Places.htm;Katie talks about things at the mall.;;3;true;true;false;true;true;1
+52;1464 Vietnam / Myranmar;https://elllo.org/english/1451/1464-AbidemiTodd-SEA2.htm;Abidemi talks about her summer break.;;3;true;true;false;true;true;1
+53;1463 Thailand / Laos;https://elllo.org/english/1451/1463-Abidemi-Todd-SEA1.htm;Abidemi talks about travels to Southeast Asia.;;3;true;true;false;true;true;1
+54;1460 House on Loan;https://elllo.org/english/1451/1460-Katie-RentHouse.htm;Katie asks to stay at Todd's house.;;3;true;true;false;true;true;1
+55;1459 Have to Move;https://elllo.org/english/1451/1459-MegTodd-HaveToMove.htm;Meg talks about moving.;;3;true;true;false;true;true;1
+56;1457 International Test;https://elllo.org/english/1451/1457-KatieTodd-InternationalTest.htm;Katie takes a culture test.;;3;true;true;false;true;true;1
+57;1446 Eating Healthy;https://elllo.org/english/1401/1446-MegTodd-Health-Vegetables.htm;What fruits and veggies does Todd like?;;3;true;true;false;true;true;1
+58;1445 Fruits and Veggies;https://elllo.org/english/1401/1445-MegTodd-Health-Fruits.htm;What healthy foods does Meg like?;;3;true;true;false;true;true;1
+59;1426 Animals in the Zoo;https://elllo.org/english/1401/1426-MegTodd-Animals-Zoo.htm;Animals we love and fear.;;3;true;true;false;true;true;1
+60;1425 Animals on the Farm;https://elllo.org/english/1401/1425-MegTodd-Animals-Farm.htm;Learn how some animals are friendly.;;3;true;true;false;true;true;1
+61;1420 The Home of ELLLO;https://elllo.org/english/1401/1420-MegTodd-Places-Apartment.htm;Learn the Todd's house in Japan.;;3;true;true;false;true;true;1
+62;﻿1419 Meg's Place;https://elllo.org/english/1401/1419-MegTodd-Places-House.htm;Learn the Meg's Apartment.;;3;true;true;false;true;true;1
+63;1406 20 Years Abroad;https://elllo.org/english/1401/1406-MegTodd-Travel-Thailand.htm;Todd talks about living overseas.;;3;true;true;false;true;true;1
+64;1405 Meg's Travels;https://elllo.org/english/1401/1405-MegTodd-Travel-Spain.htm;Living in three continents.;;3;true;true;false;true;true;1
+65;1402 Disc Golf;https://elllo.org/english/1401/1402-John-Golf.htm;John explains his sport.;;3;true;true;false;true;true;1
+66;1354 Soup for Supper;https://elllo.org/english/1351/T1354-TS-Soup.htm;Sarah talks about making soup.;;3;true;true;false;true;true;1
+67;1353 Super City. City superlatives;https://elllo.org/english/1351/T1353-TS-SanFranciscoSuperlatives.htm;The best and worst of SF.;;3;true;true;false;true;true;1
+68;1346 City Down Under. Living in Melbourne;https://elllo.org/english/1301/T1346-Shirley-Melbourne.htm;Shirley talks about Melbourne.;;3;true;true;false;true;true;1
+69;1345 The Weekend. Weekend Work, Wildlife, and Art;https://elllo.org/english/1301/T1345-Shirley-Weekend.htm;Shirley talks about her weekend.;;3;true;true;false;true;true;1
+70;1304 When in Portugal. Travel Tips For Portugal;https://elllo.org/english/1301/T1304-Ana-PortugalTips.htm;Things to do in Portugal.;;3;true;true;false;true;true;1
+71;1303 Life in Portugal;https://elllo.org/english/1301/T1303-Ana-Portugal.htm;Food, life and weather.;;3;true;true;false;true;true;1
+72;1019 Hawaii;https://elllo.org/english/1001/1019-Ron-Hawaii.htm;What makes Hawaii so special.;;3;true;true;false;true;true;1
+73;940 Ron's Favorites Foods;https://elllo.org/english/0901/T940-Ron-Food.htm;Foods Ron loves to eat.;;3;true;true;false;true;true;1
+74;939 Mari's Favorite Foods;https://elllo.org/english/0901/T939-Mari-Food.htm;Foods Mari loves to eat.;;3;true;true;false;true;true;1
+75;931 Middle School;https://elllo.org/english/0901/T931-Naomi-School.htm;Daily life in middle school.;;3;true;true;false;true;true;1
+76;928 Free Time;https://elllo.org/english/0901/T928-Naomi-FreeTime.htm;Naomi's ree time activities.;;3;true;true;false;true;true;1
+77;927 Net Ball;https://elllo.org/english/0901/T927-Naomi-Netball.htm;Naomi talks about sport.;;3;true;true;false;true;true;1
+78;﻿918 Mari's Media Choices;https://elllo.org/english/0901/T918-Mari-Media.htm;Mari's talks about media.;;3;true;true;false;true;true;1
+79;917 Ron's Media Choices;https://elllo.org/english/0901/T917-Ron-Media.htm;Ron talks about media.;;3;true;true;false;true;true;1
+80;916 Mari's Abilities;https://elllo.org/english/0901/T916-Mari-Ability.htm;Mari talks about her abilities.;;3;true;true;false;true;true;1
+81;915 Ron's Abilities;https://elllo.org/english/0901/T915-Ron-Ability.htm;Ron talks about abilities.;;3;true;true;false;true;true;1
+82;4.01 Do for emphasis. I do speak Spanish!;https://elllo.org/english/grammar/L4-01-Do-Emphasis.htm;Two people share langaues they do and don't speak.;;4;true;true;true;true;false;1
+83;4.02 Causative Verbs. Job Duties;https://elllo.org/english/grammar/L4-02-Causative-Verbs.htm;Sarah gives job tips for working for the U.S. State Department.;;4;true;true;true;true;false;1
+84;4.03 Used to. Life Way Back When;https://elllo.org/english/grammar/L4-03-Used-To.htm;Two people talk about how life was different not long ago.;;4;true;true;true;true;false;1
+85;4.04 Would - Past Tense. Valentine's Day Memories;https://elllo.org/english/grammar/L4-04-Would-Past.htm;Mel and Doron disucss a romantic holiday for kids.;;4;true;true;true;true;false;1
+86;4.05 Should - Suggestions. Getting a Job with Uncle Sam;https://elllo.org/english/grammar/L4-05-Should-Suggestions.htm;Sarah gives job tips for working for the U.S. State Department.;;4;true;true;true;true;false;1
+87;4.06 Would like / Want to. What would you like to do?;https://elllo.org/english/grammar/L4-06-Would-like-Want.htm;Two people share what they would like to do in their life.;;4;true;true;true;true;false;1
+88;4.07 Present Perfect. How International are you?;https://elllo.org/english/grammar/L4-07-Present-Perfect-Experiences.htm;Expereinces with people, food and cultures, movies and more.;;4;true;true;true;true;false;1
+89;4.08 Must, Have to, Need to. Meg has to move;https://elllo.org/english/grammar/L4-08-Modals-Obligation.htm;Meg is moving and talks about all the things she needs to do.;;4;true;true;true;true;false;1
+90;4.09 Zero Conditional. What to do when and if ...;https://elllo.org/english/grammar/L4-09-Zero-Conditionals.htm;Sarah and Todd share what they do in certain situations.;;4;true;true;true;true;false;1
+91;4.10 First Conditional. Class President;https://elllo.org/english/grammar/L4-10-First-Conditional.htm;Six students share what they will do if they are class president.;;4;true;true;true;true;false;1
+92;1470 Media - Then and Now;https://elllo.org/english/1451/1470-MegTodd-CompareMedia.htm;Comparing movies and news eras.;;4;true;true;false;true;true;1
+93;1462 Nepal Travel Tips;https://elllo.org/english/1451/1462-Jin-Nepal-Tips.htm;Katie takes a culture test.;;4;true;true;false;true;true;1
+94;1461 Nepal by Region;https://elllo.org/english/1451/1461-Jin-Nepal.htm;Jin talks about Nepals different areas.;;4;true;true;false;true;true;1
+95;1448 The Right Age;https://elllo.org/english/1401/1448-Katie-Phone.htm;When should kids get phones?;;4;true;true;false;true;true;1
+96;1437 Homesickness. Missing Home;https://elllo.org/english/1401/1437-Gilda-Homesick.htm;Missing things from home.;;4;true;true;false;true;true;1
+97;1432 Going to Mars;https://elllo.org/english/1401/1432-JohnSarah-Mars.htm;Reasons to go or not go to space;;4;true;true;false;true;true;1
+98;1424 Food We Hate;https://elllo.org/english/1401/1424-KatieGilda-FoodWeHate.htm;Surprising foods people dislike!;;4;true;true;false;true;true;1
+99;1423 Comfort Food;https://elllo.org/english/1401/1423-KatieWilda-ComfortFood.htm;Food we love!;;4;true;true;false;true;true;1
+100;1401 The Big Game. Super Party;https://elllo.org/english/1401/1401-Katie-SuperBowlParty.htm;Invite to the Super Bowl.;;4;true;true;false;true;true;1
+101;1384 Stay-at-home Moms;https://elllo.org/english/1351/T1384-MW-02-HeartFonder.htm;Going from work to home.;;4;true;true;false;true;true;1
+102;1383 Macho Women;https://elllo.org/english/1351/T1383-MW-01-LoveConcept.htm;Tough gals with tough attitudes.;;4;true;true;false;true;true;1
+103;1382 On the Trail;https://elllo.org/english/1351/T1382-Sarah-Onthetrail.htm;Working with horses on the trail.;;4;true;true;false;true;true;1
+104;1381 Rodeo Rider;https://elllo.org/english/1351/T1381-Sarah-Cowgirl.htm;Being a woman in the rodeo.;;4;true;true;false;true;true;1
+105;1235 Hotel for Him;https://elllo.org/english/1201/1235-Mike-Hotel.htm;Mike's ideal hotel when traveling.;;4;true;true;false;true;true;1
+106;1230 New Gym;https://elllo.org/english/1201/1230-Rebecca-Gym.htm;Rebecca gets info about the new gym.;;4;true;true;false;true;true;1
+107;1122 DJ Host;https://elllo.org/english/1101/1122-Shifani-Host.htm;Shifani talks about being a bilingual DJ.;;4;true;true;false;true;true;1
+108;1121 Teen Host;https://elllo.org/english/1101/1121-Shifani-Radio.htm;Shifani talks about being a child DJ.;;4;true;true;false;true;true;1
+109;1118 His Dreams;https://elllo.org/english/1101/1118-Dream-Warren.htm;Warren talks about his hopes and dreams.;;4;true;true;false;true;true;1
+110;1117 Her Dreams;https://elllo.org/english/1101/1117-Dream-Lindsay.htm;Lindsay talks about what she wanted to be as a child.;;4;true;true;false;true;true;1
+111;1108 Boys Camp;https://elllo.org/english/1101/1108-Camp-Warren.htm;Warren talks about his summer camp memories.;;4;true;true;false;true;true;1
+112;1107 Girls Camp;https://elllo.org/english/1101/1107-Camp-Lindsay.htm;Lindsay talks about her summer camp memories.;;4;true;true;false;true;true;1
+113;1017 Paul Bunyan;https://elllo.org/english/1001/1017-Jake-Bunyan.htm;Jakes discusses a popular folk hero.;;4;true;true;false;true;true;1
+114;1004 Touchy Feely;https://elllo.org/english/1001/1004-Touch.htm;Cheryl compares touch in Hong Kong, America, and Guam.;;4;true;true;false;true;true;1
+115;1003 Displays of Affection;https://elllo.org/english/1001/1003-Moves.htm;Hugs, kisses and holding hands.;;4;true;true;false;true;true;1
+116;997 The Prank;https://elllo.org/english/0951/T997-Shirley-Prank.htm;Shirley talks about a prank she did with her brothers.;;4;true;true;false;true;true;1
+117;994 Farm Life;https://elllo.org/english/0951/T994-Monica-Farm.htm;Todd and Monica discuss life on the farm.;;4;true;true;false;true;true;1
+118;993 Kiwi Adventure;https://elllo.org/english/0951/T993-Monica-NZTips.htm;Monica gives some tips about New Zealand.;;4;true;true;false;true;true;1
+119;992 Long Life;https://elllo.org/english/0951/T992-Monica-LongLife.htm;Monica and Todd discuss the secrets of having a long life.;;4;true;true;false;true;true;1
+120;991 Tai Chi;https://elllo.org/english/0951/T991-Monica-TaiChi.htm;Monica talks about the popular exercise of Tai Chi.;;4;true;true;false;true;true;1
+121;1454 Life in the Artic;https://elllo.org/english/1451/1454-AbidemiTodd-Innuits.htm;How people live in the Artic!;;4;true;true;false;true;true;1
+122;1453 Life Happens Up North;https://elllo.org/english/1451/1453-Abidemi-Todd-Innuits.htm;Working and living in the artic.;;4;true;true;false;true;true;1
+123;1449 Burger Barn;https://elllo.org/english/1401/1449-Todd-BurgerBarn.htm;Can I take your order?;;4;true;true;false;true;true;1
+124;1236 Hotel for Her;https://elllo.org/english/1201/1236-Erina-Hotel.htm;Erina's ideal hotel when traveling.;;4;true;true;false;true;true;1
+125;988 The Break Up;https://elllo.org/english/0951/T988-George-BreakUp.htm;Crystal gives advice on how to break up.;;4;true;true;false;true;true;1
+126;987 Class Crush;https://elllo.org/english/0951/T987-George-Crush.htm;Crystal gives George female advice on women.;;4;true;true;false;true;true;1
+127;5.04 Subordinating Conjunctions - Condition. Party at the Park;https://elllo.org/english/grammar/L5-04-SubCo-Condition.htm;Todd asks Darcy to a party.;;5;true;true;true;true;false;1
+128;5.05 Second Conditional. Dream On;https://elllo.org/english/grammar/L5-05-Second-Conditional.htm;What would you do if you were rich? Six people share thoughts.;;5;true;true;true;true;false;1
+129;5.06 Adjective Clause. Live Long and Be Heathy;https://elllo.org/english/grammar/L5-06-Adjective-Clause.htm;Monica talks about living a healthy life.;;5;true;true;true;true;false;1
+130;5.07 Noun Clause. It is what it is!;https://elllo.org/english/grammar/L5-07B-Noun-Cllause.htm;Common phrases with a noun clause. It is what it is!;;5;true;true;true;true;false;1
+131;5.01 Coordinating Conjunction- Fanboys. Collecting Computers;https://elllo.org/english/grammar/L5-01-Fanboys.htm;Why Todd has many computers.;;5;true;true;true;true;false;1
+132;5.02 Subordinating Conjunctions - Time. Soup for Supper;https://elllo.org/english/grammar/L5-02-SubCo-Time.htm;Sarah talks about making soup.;;5;true;true;true;true;false;1
+133;5.03 Subordinating Conjunctions - Reason. Housing and Transportation;https://elllo.org/english/grammar/L5-03-SubCo-Reason.htm;6 people discuss their housing.;;5;true;true;true;true;false;1
+134;5.08 Projected Speech. Talent Wish;https://elllo.org/english/grammar/L5-08-Projected-Speech.htm;Two college students share what talents they wish they had.;;5;true;true;true;true;false;1
+135;5.09 Present Perfect. Wedding Plans;https://elllo.org/english/grammar/L5-09-Present-Perfect-Recent.htm;Meg talks about what she needs to do for her wedding.;;5;true;true;true;true;false;1
+136;5.10 Past Conditional. Do Over;https://elllo.org/english/grammar/L5-10-Past-Conditional.htm;Two people share what they'd like to do over in their life.;;5;true;true;true;true;false;1
+137;1520 Bangkok Shopping;https://elllo.org/english/1501/1520-Jerri-Fashion.htm;Jerri shares shopping options in Bangkok.;;5;true;true;false;true;true;1
+138;1519 Bangkok Transportation - Part 2;https://elllo.org/english/1501/1519-Jerri-Transportation.htm;More ways to get around in Bangkok.;;5;true;true;false;true;true;1
+139;1518 Bangkok Transportation - Part 1;https://elllo.org/english/1501/1518-Jerri-Transportation.htm;Getting around in Bangkok.;;5;true;true;false;true;true;1
+140;1517 Island Stress;https://elllo.org/english/1501/1517-Jerri-Island-Stress.htm;Problems facing Thailand's islands.;;5;true;true;false;true;true;1
+141;1516 Thai Island Life;https://elllo.org/english/1501/1516-Jerri-Islands.htm;The wonderful features of Thailand's islands.;;5;true;true;false;true;true;1
+142;1515 Kids and Boredom;https://elllo.org/english/1501/1515-Angela-Kids-and-Boredom.htm;Is life too fun for kids?;;5;true;true;false;true;true;1
+143;1514 Family Money Flow;https://elllo.org/english/1501/1514-Angela-MoneyFlow.htm;How families and money differ worldwide.;;5;true;true;false;true;true;1
+144;1513 The Empty Nest;https://elllo.org/english/1501/1513-Angela-Families.htm;Life after the kids grow up.;;5;true;true;false;true;true;1
+145;1490 Music and Money. The Music Industry;https://elllo.org/english/1451/1490-Ben-Hanna-Music-Business.htm;Ben and Hanna discuss the music industry.;;5;true;true;false;true;true;1
+146;1489 High School Band;https://elllo.org/english/1451/1489-Ben-Hanna-HIghSchoolBabd.htm;Ben talks about being a rock band in high school.;;5;true;true;false;true;true;1
+147;1488 Super Hero Skills;https://elllo.org/english/1451/1488-Gyri-Viyasan-Superhero-Abilities.htm;What skill would you like to have?;;5;true;true;false;true;true;1
+148;1487 Hard Work vs Talent.;https://elllo.org/english/1451/1487-Gyri-Viyasan-HardWork-Talent.htm;What trait is more important to success?;;5;true;true;false;true;true;1
+149;1482 Phone Addictions;https://elllo.org/english/1451/1482-Jen-SocialMedia.htm;Can you live without your phone?;;5;true;true;false;true;true;1
+150;1478 Burgers and Baseball;https://elllo.org/english/1451/1478-Shantel-Burgers.htm;Food and sport stereotypes.;;5;true;true;false;true;true;1
+151;1380 Truffle Time;https://elllo.org/english/1351/T1380-Meg-04-Truffle.htm;How to make these chocolate goodies.;;5;true;true;false;true;true;1
+152;1379 Baking Cake Pops;https://elllo.org/english/1351/T1379-Meg-03-Baking.htm;New trends in baking.;;5;true;true;false;true;true;1
+153;1328 Ocean Encounters;https://elllo.org/english/1301/T1328-Sorie-FishStory.htm;Sorie and Mark talk about meeting sealife.;;5;true;true;false;true;true;1
+154;1237 Freaks and Animals;https://elllo.org/english/1201/1237-Julia-Types.htm;Julia and Todd discuss certain lifestyles.;;5;true;true;false;true;true;1
+155;1224 More Moms;https://elllo.org/english/1201/1224-Todd-Tigermom.htm;Tiger Moms and Helicopter Parents.;;5;true;true;false;true;true;1
+156;1223 Soccer Moms;https://elllo.org/english/1201/1223-Todd-SoccerMom.htm;Soccer Moms and Nascar Dads.;;5;true;true;false;true;true;1
+157;1200 Born to Run;https://elllo.org/english/1151/T1200-Julia-Sport.htm;Julia talks about people who run long distances.;;5;true;true;false;true;true;1
+158;1198 Alternative Exercise;https://elllo.org/english/1151/T1198-Julia-Sport.html;New ways people stay in shape.;;5;true;true;false;true;true;1
+159;1184 Character Changes;https://elllo.org/english/1151/T1184-Maria-Peronsality.html;Maria talks about her personality.;;5;true;true;false;true;true;1
+160;1183 Changes in Appearance;https://elllo.org/english/1151/T1183-Maria-Appearance.html;Maria talks about changing her appearance.;;5;true;true;false;true;true;1
+161;1088 Make-up;https://elllo.org/english/1051/1088-Rebecca-Make-up.htm;Rebecca talks about being introduced to make-up.;;5;true;true;false;true;true;1
+162;1087 Tomboy;https://elllo.org/english/1051/1087-Rebecca-Tomboy.htm;Rebecca talks about growing up as a tomboy.;;5;true;true;false;true;true;1
+163;1044 Ginger Snacks;https://elllo.org/english/1001/1044-Ginger-Dip.htm;Ginger can make pumpkin dip and fruit smoothies.;;5;true;true;false;true;true;1
+164;1043 Eggplant Curry;https://elllo.org/english/1001/1043-Nabil-Curry.htm;Nabil shares the secret for his eggplant curry.;;5;true;true;false;true;true;1
+165;1042 Nabeel's Place;https://elllo.org/english/1001/1042-Nabil-Apartment.htm;Nabeel talks about his apartment and neighbors.;;5;true;true;false;true;true;1
+166;1041 Ginger's Place;https://elllo.org/english/1001/1041-Ginger-Apartment.htm;Ginger shares why she lives where she does.;;5;true;true;false;true;true;1
+167;1027 Countries United;https://elllo.org/english/1001/1027-Shirley-UK.htm;Shirley explains the United Kingdom and Great Britain.;;5;true;true;false;true;true;1
+168;1022 Island Invasion;https://elllo.org/english/1001/1022-Cheryl-Danger.htm;Cheryl talks about serious problems on her island.;;5;true;true;false;true;true;1
+169;1021 Island Dangers;https://elllo.org/english/1001/1021-Cheryl-Danger.htm;Cheryl talks about dangerous things on her island.;;5;true;true;false;true;true;1
+170;1015 The Big Mix;https://elllo.org/english/1001/1015-MixPop.htm;CleAnn talks about her very multicultural country.;;5;true;true;false;true;true;1
+171;1510 Student Life in China Part 2;https://elllo.org/english/1501/1510-Rufei-ChinaStudents.htm;Hear about life for students in China.;;5;true;true;false;true;true;1
+172;1509 Student Life in China Part 1;https://elllo.org/english/1501/1509-Rufei-ChinaStudents.htm;Hear how school in China is very competitive.;;5;true;true;false;true;true;1
+173;1506 Favorite Celebrities;https://elllo.org/english/1501/1506-Ben-Hanna-Celebrity.htm;Hana and Ben discuss famous people they like.;;5;true;true;false;true;true;1
+174;1505 Movie Take;https://elllo.org/english/1501/1505-Ben-Hanna-Movie.htm;Ben talks about two movies he saw recently.;;5;true;true;false;true;true;1
+175;1500 Learning with TV;https://elllo.org/english/1451/1500-Ben-Hana-TV-Shows.htm;Good shows to learn English.;;5;true;true;false;true;true;1
+176;1499 Learning English. Tips for Learning English;https://elllo.org/english/1451/1499-Ben-Hana-English-Tips.htm;Learn tips to learn English.;;5;true;true;false;true;true;1
+177;1238 More Freaks;https://elllo.org/english/1201/1238-Julia-Types.htm;Julia and Todd discuss certain traits.;;5;true;true;false;true;true;1
+178;1028 Sports Divided;https://elllo.org/english/1001/1028-Shirley-UK.htm;Shirley talks about two rival teams in Scotland.;;5;true;true;false;true;true;1
+179;1006 Winning;https://elllo.org/english/1001/1006-Winning.htm;Monica and Todd debate winning and teen sports.;;5;true;true;false;true;true;1
+180;1005 Physical Education;https://elllo.org/english/1001/1005-PE.htm;Monica and Todd discuss students taking P.E. classes.;;5;true;true;false;true;true;1
+181;1512 Bangkok Street Food;https://elllo.org/english/1501/1512-Natalie-StreetFood.htm;Natalie talks about street cuisine.;;6;true;true;false;true;true;1
+182;1494 Expiration Dates;https://elllo.org/english/1451/1494-Rachel-Todd-Shelf-Life.htm;Talking about best buy dates.;;6;true;true;false;true;true;1
+183;1493 Throw it out!;https://elllo.org/english/1451/1493-Rachel-Todd-Expiration.htm;When do people toss away thing?;;6;true;true;false;true;true;1
+184;1485 Birds Don't Fly.;https://elllo.org/english/1451/1485-Rachel-Birds.htm;The birds of New Zealand.;;6;true;true;false;true;true;1
+185;1484 Pests and Predators.;https://elllo.org/english/1451/1484-Rachel-Predators.htm;An animal issue in New Zealand.;;6;true;true;false;true;true;1
+186;1472 Giving Gifts;https://elllo.org/english/1451/1472-Aimee-Give-Gifts.htm;The hassle of buying presents.;;6;true;true;false;true;true;1
+187;1471 Black Friday.;https://elllo.org/english/1451/1471-Aimee-BlackFriday.htm;Learn about this popular shopping day.;;6;true;true;false;true;true;1
+188;1466 Body Idioms Part 2.;https://elllo.org/english/1451/1466-MegTodd-BodyIdioms.htm;Meg and Todd discuss common idioms.;;6;true;true;false;true;true;1
+189;1465 Body Idioms Part 1.;https://elllo.org/english/1451/1465-MegTodd-BodyIdioms.htm;Meg and Todd discuss common idioms.;;6;true;true;false;true;true;1
+190;1456 Brain Drain.;https://elllo.org/english/1451/1456-Pernais-BrainDrain.htm;Pernais talks about Jamaica.;;6;true;true;false;true;true;1
+191;1455 Out of Country.;https://elllo.org/english/1451/1455-Pernais-OutOfCountry.htm;Pernais talks about Jamaica.;;6;true;true;false;true;true;1
+192;1400 Brush and Shave.;https://elllo.org/english/1351/T1400-Meg-08-Teeth.htm;Do you brush and shave every day?;;6;true;true;false;true;true;1
+193;1399 Shower Schedule.;https://elllo.org/english/1351/T1399-Meg-07-Bathing.htm;How often do you shower?;;6;true;true;false;true;true;1
+194;1398 Power of Personality.;https://elllo.org/english/1351/T1398-AbidemiRory-02-Personality.htm;What kind of person are you?;;6;true;true;false;true;true;1
+195;1397 Introverts and Extroverts.;https://elllo.org/english/1351/T1397-AbidemiRory-01-Personality.htm;Are you outgoing?;;6;true;true;false;true;true;1
+196;1376 Living for today not tomorrow.;https://elllo.org/english/1351/T1376-AdamSarah-04-BucketList.htm;Life with no regrets.;;6;true;true;false;true;true;1
+197;1375 Bucket List.;https://elllo.org/english/1351/T1375-AdamSarah-03-BucketList.htm;Thing people would like to do in life.;;6;true;true;false;true;true;1
+198;1374 Dream Time.;https://elllo.org/english/1351/T1374-SarahTodd-02-Dream.htm;Sarah and Todd discuss having dreams.;;6;true;true;false;true;true;1
+199;1373 Sleeping Patterns.;https://elllo.org/english/1351/T1373-SarahTodd-01-Sleep.htm;How much sleep do we need?;;6;true;true;false;true;true;1
+200;1366 Her DoOver.;https://elllo.org/english/1351/T1366-AdamSarah-02-DoOver.htm;What would Sarah do over in her life?;;6;true;true;false;true;true;1
+201;1365 His DoOver.;https://elllo.org/english/1351/T1365-AdamSarah-01-DoOver.htm;What woudl Adam change about his life?;;6;true;true;false;true;true;1
+202;1364 New York Sports.;https://elllo.org/english/1351/T1364-Warren-Sports.htm;Tourist tips for New York.;;6;true;true;false;true;true;1
+203;1363 New York Tips.;https://elllo.org/english/1351/T1363-Warren-NewYork.htm;Tips for visiting New York.;;6;true;true;false;true;true;1
+204;1360 His Life in Japan.;https://elllo.org/english/1351/T1360-Warren-Choices.htm;Warren talks habits he started in Japan.;;6;true;true;false;true;true;1
+205;1359 Her Life in Japan.;https://elllo.org/english/1351/T1359-Antoinette-Japan.htm;Antoinette talks about habits in Japan.;;6;true;true;false;true;true;1
+206;1356 Baby on Board.;https://elllo.org/english/1351/T1356-JA-BabyOnBoard.htm;Jeremy talks about handing a baby while flying.;;6;true;true;false;true;true;1
+207;1355 Proud Papa.;https://elllo.org/english/1351/T1355-JA-NewBorn.htm;Jeremy talks about being a dad for the first time.;;6;true;true;false;true;true;1
+208;1350 In the Club.;https://elllo.org/english/1301/T1350-amy-money-floor.htm;Aimee talks about working part-time.;;6;true;true;false;true;true;1
+209;1349 In the Tropics.;https://elllo.org/english/1301/T1349-paul-tropics.htm;Paul talks about a job in the rainforest.;;6;true;true;false;true;true;1
+210;1347 Commercial Xmas.;https://elllo.org/english/1301/T1347-Rory-Commercial.htm;Are holidays too commercial?;;6;true;true;false;true;true;1
+211;1310 Homegrown Foreigner.;https://elllo.org/english/1301/T1310-Jeremy-GoingHome.htm;Feeling strange at home.;;6;true;true;false;true;true;1
+212;1511 Bustling Bangkok;https://elllo.org/english/1501/1511-Natalie-Bangkok.htm;Natalie talks about a great Asian city.;;6;true;true;false;true;true;1
+213;1370 The Medic.;https://elllo.org/english/1351/T1370-Meg-02-Medic.htm;Being a medic in the military.;;6;true;true;false;true;true;1
+214;1369 Women in Uniform.;https://elllo.org/english/1351/T1369-Meg-01-Military.htm;Being a woman in the military.;;6;true;true;false;true;true;1
+215;1348 Single's Day.;https://elllo.org/english/1301/T1348-Rory-Holidays.htm;Why we celebrate some holidays?;;6;true;true;false;true;true;1ç
+216;1342 Dialed In vs Unplugged.;https://elllo.org/english/1301/T1342-paul-unplugged.htm;Aimee talks about digital habits.;;6;true;true;false;true;true;1
+217;1341 E-Mail Overload.;https://elllo.org/english/1301/T1341-amy-email-habits.htm;Paul talks about keeping up with e-mail.;;6;true;true;false;true;true;1
+218;1340 Life Without Cars.;https://elllo.org/english/1301/T1340-Jeremy-Car.htm;Jeremy compares life without cars.;;6;true;true;false;true;true;1
+219;1322 The Recovery.;https://elllo.org/english/1301/T1322-paul-accident.htm;An accident that ruined a special day.;;6;true;true;false;true;true;1
+220;1321 Car Smash Ups.;https://elllo.org/english/1301/T1321-amy-accident.htm;Traffic accidents.;;6;true;true;false;true;true;1
+221;1320 Being Different.;https://elllo.org/english/1301/T1320-Abidemi-Differences.htm;Thinking differently from others.;;6;true;true;false;true;true;1
+222;1319 Memories of Canada.;https://elllo.org/english/1301/T1319-Abidemi-Canada.htm;First memories of Canada.;;6;true;true;false;true;true;1
+223;1522 Bitcoin Part 2;https://elllo.org/english/1501/1522-Anthony-Bitcoin2.htm;Anthony talks about bitcoin and crypto.;;7;true;true;false;true;true;1
+224;1521 Bitcoin Part 1;https://elllo.org/english/1501/1521-Anthony-Bitcoin.htm;Anthony talks about bitcoin and its history.;;7;true;true;false;true;true;1
+225;1498 Breaking Bad Habits!;https://elllo.org/english/1451/1498-Olga-Health-4Habits.htm;How to change one's life.;;7;true;true;false;true;true;1
+226;1497 Health Proverbs;https://elllo.org/english/1451/1497-Olga-Health-Idioms.htm;Proverbs about how to stay healthy.;;7;true;true;false;true;true;1
+227;1492 Head, Heart, Hand;https://elllo.org/english/1451/1492-Olga-Health-4Habits.htm;Olga shares a fun way to learn.;;7;true;true;false;true;true;1
+228;1397 Introverts and Extroverts;https://elllo.org/english/1351/T1397-AbidemiRory-01-Personality.htm;Are you outgoing?;;7;true;true;false;true;true;1
+229;1372 His Dream House;https://elllo.org/english/1351/T1372-CurtisSpencer-02-HisHouse.htm;Curtis talks about his dream house.;;7;true;true;false;true;true;1
+230;1371 Her Dream House;https://elllo.org/english/1351/T1371-SpencerCurtis-01-HerHome.htm;Spencer talks about her dream house.;;7;true;true;false;true;true;1
+231;1325 Slow Travel;https://elllo.org/english/1301/T1325-Dan-Slowtravel.htm;Travelling vs staying in one place.;;7;true;true;false;true;true;1
+232;1324 Where to Work in Asia;https://elllo.org/english/1301/T1324-Dan-Location.htm;Places to work in Asia.;;7;true;true;false;true;true;1
+233;1323 Business in Bali;https://elllo.org/english/1301/T1323-Dan-SEA.htm;Doing business from Bali.;;7;true;true;false;true;true;1
+234;1311 Choosing a Climate;https://elllo.org/english/1301/T1311-amy-climate-choice.htm;Aimee and Paul discuss the best place to live.;;7;true;true;false;true;true;1
+235;1302 Change of Climate;https://elllo.org/english/1301/T1302-amy-change-climate.htm;The affects on the climate.;;7;true;true;false;true;true;1
+236;1301 Climate Change;https://elllo.org/english/1301/T1301-amy-climate-change.htm;Recents events with weather.;;7;true;true;false;true;true;1
+237;1260 Nice Cafe;https://elllo.org/english/1251/1260-Spencer-Curtis-2-GoodCafe.htm;What makes a nice cafe?;;7;true;true;false;true;true;1
+238;1259 Good Company;https://elllo.org/english/1251/1259-Spencer-Curtis-1-Company.htm;Curtis and Spencer talk about what companies.;;7;true;true;false;true;true;1
+239;1222 Shipwrecks;https://elllo.org/english/1201/1222-Peter-Ships.htm;Peter talks with Jana about shipwrecks.;;7;true;true;false;true;true;1
+240;1221 Treasure Hunt;https://elllo.org/english/1201/1221-Peter-Treasure.htm;Hunting for treasure in the sea.;;7;true;true;false;true;true;1
+241;1172 Road Regulations;https://elllo.org/english/1151/T1172-Nathan-Regulation.html;Nathan talks about road regulations for drivers.;;7;true;true;false;true;true;1
+242;1171 Road Rage;https://elllo.org/english/1151/T1171-Nathan-Rage.html;Nathan talks about dealing with anger on the road.;;7;true;true;false;true;true;1
+243;1170 Cambodia Road Trip Part 4;https://elllo.org/english/1151/T1170-Julia-Trips4.html;Julia talks about biking across Cambodia.;;7;true;true;false;true;true;1
+244;1169 Cambodia Road Trip Part 3;https://elllo.org/english/1151/T1169-Julia-Trips3.html;Julia talks about biking across Cambodia.;;7;true;true;false;true;true;1
+245;1168 Cambodia Road Trip Part 2;https://elllo.org/english/1151/T1168-Julia-Trips2.html;Julia talks about biking across Cambodia.;;7;true;true;false;true;true;1
+246;1167 Cambodia Road Trip Part 1;https://elllo.org/english/1151/T1167-Julia-Trips1.html;Julia talks about biking across Cambodia.;;7;true;true;false;true;true;1
+247;1094 Welfare;https://elllo.org/english/1051/1094-Todd-Welfare.htm;Todd talks about welfare in the U.S.;;7;true;true;false;true;true;1
+248;1093 The Dole;https://elllo.org/english/1051/1093-Rachel-TheDole.htm;Rachel talks with Todd about 'the dole' in the U.K.;;7;true;true;false;true;true;1
+249;1054 Pest Protection;https://elllo.org/english/1051/1054-Ray-CustomPest.htm;Shirley talks about being a custom official.;;7;true;true;false;true;true;1
+250;1053 Banned by Customs;https://elllo.org/english/1051/1053-Ray-CustomBan.htm;Shirley talks about working with Customs.;;7;true;true;false;true;true;1
+251;1491 Health Coach;https://elllo.org/english/1451/1491-Olga-Health-3-things.htm;Olga shares tips for living a good life!;;7;true;true;false;true;true;1
+252;1312 Skin Sea and Sun;https://elllo.org/english/1301/T1312-amy-skin-sea-sun.htm;Paul and Amy discuss sunshine and warm and cold climates.;;7;true;true;false;true;true;1
+253;1300 Shopping for Clothes;https://elllo.org/english/1251/1300-Spencer-Curtis-Clothing-Quirks.htm;Curtis and Spencer talk about the clothes.;;7;true;true;false;true;true;1
+254;1299 Fashion Sense;https://elllo.org/english/1251/1299-Spencer-Curtis-ComfortClothing.htm;Curtis talks with Spencer about her sense of style.;;7;true;true;false;true;true;1
+255;986 Touchy Topics;https://elllo.org/english/0951/T986-Greg-Topics.htm;Greg asks Todd why elllo has so few controversial topics.;;7;true;true;false;true;true;1
+256;985 Organ Donation;https://elllo.org/english/0951/T985-Greg-Organs.htm;Greg discuss the dilemma yet vital topic of organ donation.;;7;true;true;false;true;true;1
+257;984 Salary Caps;https://elllo.org/english/0951/T984-Greg-Salaries.htm;Greg and Todd debate limits to salaries.;;7;true;true;false;true;true;1
+258;983 Minimum Wage;https://elllo.org/english/0951/T983-Greg-Wages.htm;Greg and Todd debate minimum wages.;;7;true;true;false;true;true;1
+259;A good night's sleep;https://learnenglishteens.britishcouncil.org/skills/listening/beginner-a1-listening/good-nights-sleep;;;1;true;true;false;true;true;2
+260;At the library - giving personal information;https://learnenglishteens.britishcouncil.org/skills/listening/beginner-a1-listening/library-giving-personal-information;;;1;true;true;false;true;true;2
+261;Band auditions;https://learnenglishteens.britishcouncil.org/skills/listening/beginner-a1-listening/band-auditions;;;1;true;true;false;true;true;2
+262;Describing people;https://learnenglishteens.britishcouncil.org/skills/listening/beginner-a1-listening/describing-people;;;1;true;true;false;true;true;2
+263;First day at school;https://learnenglishteens.britishcouncil.org/skills/listening/beginner-a1-listening/first-day-school;;;1;true;true;false;true;true;2
+264;Getting an ID card;https://learnenglishteens.britishcouncil.org/skills/listening/beginner-a1-listening/getting-id-card;;;1;true;true;false;true;true;2
+265;Interview with a swimmer;https://learnenglishteens.britishcouncil.org/skills/listening/beginner-a1-listening/interview-swimmer;;;1;true;true;false;true;true;2
+266;Introducing a friend;https://learnenglishteens.britishcouncil.org/skills/listening/beginner-a1-listening/introducing-friend;;;1;true;true;false;true;true;2
+267;Inviting someone to the cinema;https://learnenglishteens.britishcouncil.org/skills/listening/beginner-a1-listening/inviting-someone-cinema;;;1;true;true;false;true;true;2
+268;Online safety conversation;https://learnenglishteens.britishcouncil.org/skills/listening/beginner-a1-listening/online-safety-conversation;;;1;true;true;false;true;true;2
+269;Ordering food in a café;https://learnenglishteens.britishcouncil.org/skills/listening/beginner-a1-listening/ordering-food-cafe;;;1;true;true;false;true;true;2
+270;Spelling colours;Listen to the spelling of the colours and do the exercises. If you don't know the colours in English, do this vocabulary exercise first.;;;1;true;true;false;true;true;2
+271;Spelling names;https://learnenglishteens.britishcouncil.org/skills/listening/beginner-a1-listening/spelling-names;;;1;true;true;false;true;true;2
+272;Study tips;https://learnenglishteens.britishcouncil.org/skills/listening/beginner-a1-listening/study-tips;;;1;true;true;false;true;true;2
+273;Understanding numbers;https://learnenglishteens.britishcouncil.org/skills/listening/beginner-a1-listening/understanding-numbers;;;1;true;true;false;true;true;2
+
+VIDEO (id_video, id_resource)
+=============================
+1;1
+2;2
+3;3
+4;4
+5;5
+6;6
+7;11
+8;12
+9;13
+10;14
+11;15
+12;29
+13;30
+14;36
+15;45
+16;49
+17;50
+18;51
+19;52
+20;53
+21;54
+22;55
+23;56
+24;57
+25;58
+26;59
+27;60
+28;61
+29;62
+30;63
+31;64
+32;65
+33;66
+34;67
+35;68
+36;69
+37;70
+38;71
+39;72
+40;73
+41;74
+42;75
+43;76
+44;77
+45;78
+46;79
+47;80
+48;81
+49;92
+50;93
+51;94
+52;95
+53;96
+54;97
+55;98
+56;99
+57;100
+58;101
+59;102
+60;103
+61;104
+62;105
+63;106
+64;107
+65;108
+66;109
+67;110
+68;111
+69;112
+70;113
+71;114
+72;115
+73;116
+74;117
+75;118
+76;119
+77;120
+78;131
+79;132
+80;133
+81;134
+82;135
+83;136
+84;137
+85;138
+86;139
+87;140
+88;141
+89;142
+90;143
+91;144
+92;145
+93;146
+94;147
+95;148
+96;149
+97;150
+98;151
+99;152
+100;153
+101;154
+102;155
+103;156
+104;157
+105;158
+106;159
+107;160
+108;161
+109;162
+110;163
+111;164
+112;165
+113;166
+114;167
+115;168
+116;169
+117;170
+118;181
+119;182
+120;183
+121;184
+122;185
+123;186
+124;187
+125;188
+126;189
+127;190
+128;191
+129;192
+130;193
+131;194
+132;195
+133;196
+134;197
+135;198
+136;199
+137;200
+138;201
+139;202
+140;203
+141;204
+142;205
+143;206
+144;207
+145;208
+146;209
+147;210
+148;211
+149;223
+150;224
+151;225
+152;226
+153;227
+154;228
+155;229
+156;230
+157;231
+158;232
+159;233
+160;234
+161;235
+162;236
+163;237
+164;238
+165;239
+166;240
+167;241
+168;242
+169;243
+170;244
+171;245
+172;246
+173;247
+174;248
+175;249
+176;250
+
+LISTENNING (id_listenning, id_resource)
+====================
+1;7
+2;8
+3;9
+4;10
+5;16
+6;17
+7;18
+8;19
+9;20
+10;21
+11;22
+12;23
+13;24
+14;25
+15;26
+16;27
+17;28
+18;31
+19;32
+20;33
+21;34
+22;35
+23;37
+24;38
+25;39
+26;40
+27;41
+28;42
+29;43
+30;44
+31;46
+32;47
+33;48
+34;82
+35;83
+36;84
+37;85
+38;86
+39;87
+40;88
+41;89
+42;90
+43;91
+44;121
+45;122
+46;123
+47;124
+48;125
+49;126
+50;127
+51;128
+52;129
+53;130
+54;171
+55;172
+56;173
+57;174
+58;175
+59;176
+60;177
+61;178
+62;179
+63;180
+64;212
+65;213
+66;214
+67;215
+68;216
+69;217
+70;218
+71;219
+72;220
+73;221
+74;222
+75;251
+76;252
+77;253
+78;254
+79;255
+80;256
+81;257
+82;258
+83;259
+84;260
+85;261
+86;262
+87;263
+88;264
+89;265
+90;266
+91;267
+92;268
+93;269
+94;270
+95;271
+96;272
+97;273
