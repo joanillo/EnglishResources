@@ -11,18 +11,18 @@ Level 5: Mid Intermediate
 Level 6: High Intermediate
 Level 7: Advanced
 
-Nivells britishcouncil:
-Beginner A1 listening
-Elementary A2 listening
-Intermediate B1 listening
-Upper Intermediate B2 listening
-Advanced C1 listening
+Nivells britishcouncil: (correspondència)
+Beginner A1 listening -> High Beginner (1)
+Elementary A2 listening -> High Beginner (3)
+Intermediate B1 listening -> Mid Intermediate (5)
+Upper Intermediate B2 listening -> High Intermediate (6)
+Advanced C1 listening -> Advanced (7)
 
 =============
 
 SOURCE (id_source, source)
 LEVEL (id_level, level)
-RESOURCE (id_resource, resource, url, description, comments, id_level, active, has_script, has_grammar, has_quiz, has_vocabulary)
+RESOURCE (id_resource, resource, url, description, comments, id_level, active, has_script, has_grammar, has_quiz, has_vocabulary, id_source)
 VIDEO (id_video, id_resource)
 LISTENNING (id_listenning, id_resource)
 
@@ -253,7 +253,7 @@ RESOURCE (id_resource, resource, url, resume, comments, id_level, active, has_sc
 212;1511 Bustling Bangkok;https://elllo.org/english/1501/1511-Natalie-Bangkok.htm;Natalie talks about a great Asian city.;;6;true;true;false;true;true;1
 213;1370 The Medic.;https://elllo.org/english/1351/T1370-Meg-02-Medic.htm;Being a medic in the military.;;6;true;true;false;true;true;1
 214;1369 Women in Uniform.;https://elllo.org/english/1351/T1369-Meg-01-Military.htm;Being a woman in the military.;;6;true;true;false;true;true;1
-215;1348 Single's Day.;https://elllo.org/english/1301/T1348-Rory-Holidays.htm;Why we celebrate some holidays?;;6;true;true;false;true;true;1ç
+215;1348 Single's Day.;https://elllo.org/english/1301/T1348-Rory-Holidays.htm;Why we celebrate some holidays?;;6;true;true;false;true;true;1
 216;1342 Dialed In vs Unplugged.;https://elllo.org/english/1301/T1342-paul-unplugged.htm;Aimee talks about digital habits.;;6;true;true;false;true;true;1
 217;1341 E-Mail Overload.;https://elllo.org/english/1301/T1341-amy-email-habits.htm;Paul talks about keeping up with e-mail.;;6;true;true;false;true;true;1
 218;1340 Life Without Cars.;https://elllo.org/english/1301/T1340-Jeremy-Car.htm;Jeremy compares life without cars.;;6;true;true;false;true;true;1
@@ -297,7 +297,7 @@ RESOURCE (id_resource, resource, url, resume, comments, id_level, active, has_sc
 256;985 Organ Donation;https://elllo.org/english/0951/T985-Greg-Organs.htm;Greg discuss the dilemma yet vital topic of organ donation.;;7;true;true;false;true;true;1
 257;984 Salary Caps;https://elllo.org/english/0951/T984-Greg-Salaries.htm;Greg and Todd debate limits to salaries.;;7;true;true;false;true;true;1
 258;983 Minimum Wage;https://elllo.org/english/0951/T983-Greg-Wages.htm;Greg and Todd debate minimum wages.;;7;true;true;false;true;true;1
-259;A good night's sleep;https://learnenglishteens.britishcouncil.org/skills/listening/beginner-a1-listening/good-nights-sleep;;;1;true;true;false;true;true;2
+259;A good night's sleep;https://learnenglishteens.britishcouncil.org/skills/listening/beginner-a1-listening/good-nights-sleep;Listen to the radio interview.;;1;true;true;false;true;true;2
 260;At the library - giving personal information;https://learnenglishteens.britishcouncil.org/skills/listening/beginner-a1-listening/library-giving-personal-information;;;1;true;true;false;true;true;2
 261;Band auditions;https://learnenglishteens.britishcouncil.org/skills/listening/beginner-a1-listening/band-auditions;;;1;true;true;false;true;true;2
 262;Describing people;https://learnenglishteens.britishcouncil.org/skills/listening/beginner-a1-listening/describing-people;;;1;true;true;false;true;true;2
@@ -312,6 +312,55 @@ RESOURCE (id_resource, resource, url, resume, comments, id_level, active, has_sc
 271;Spelling names;https://learnenglishteens.britishcouncil.org/skills/listening/beginner-a1-listening/spelling-names;;;1;true;true;false;true;true;2
 272;Study tips;https://learnenglishteens.britishcouncil.org/skills/listening/beginner-a1-listening/study-tips;;;1;true;true;false;true;true;2
 273;Understanding numbers;https://learnenglishteens.britishcouncil.org/skills/listening/beginner-a1-listening/understanding-numbers;;;1;true;true;false;true;true;2
+274;Eating out;https://learnenglishteens.britishcouncil.org/skills/listening/elementary-a2-listening/eating-out;Listen carefully to the conversation in a restaurant.;;3;true;true;false;true;true;2
+275;Free time;https://learnenglishteens.britishcouncil.org/skills/listening/elementary-a2-listening/free-time;Listen to Tyrone calling the staff at his local swimming pool.;;3;true;true;false;true;true;2
+276;Giving directions;https://learnenglishteens.britishcouncil.org/skills/listening/elementary-a2-listening/giving-directions;Look at the map and listen to the directions.;;3;true;true;false;true;true;2
+277;Going to the cinema;https://learnenglishteens.britishcouncil.org/skills/listening/elementary-a2-listening/going-cinema;Listen to Mario and Tamara talking about what film they want to see.;;3;true;true;false;true;true;2
+278;Shopping for clothes;https://learnenglishteens.britishcouncil.org/skills/listening/elementary-a2-listening/shopping-clothes;Listen to the conversation between a customer and a shop assistant.;;3;true;true;false;true;true;2
+279;Stop wasting time;https://learnenglishteens.britishcouncil.org/skills/listening/elementary-a2-listening/stop-wasting-time;Listen to the conversation about how to study better.;;3;true;true;false;true;true;2
+280;Taking notes;https://learnenglishteens.britishcouncil.org/skills/listening/elementary-a2-listening/taking-notes;Listen to the conversation about taking notes.;;3;true;true;false;true;true;2
+281;Tour of London;https://learnenglishteens.britishcouncil.org/skills/listening/elementary-a2-listening/tour-london;Take a tour of London by listening to this tour guide.;;3;true;true;false;true;true;2
+282;Trains and travel;https://learnenglishteens.britishcouncil.org/skills/listening/elementary-a2-listening/trains-travel;Listen to five different conversations at a train station.;;3;true;true;false;true;true;2
+283;Travelling abroad;https://learnenglishteens.britishcouncil.org/skills/listening/elementary-a2-listening/travelling-abroad;Listen to the five airport announcements.;;3;true;true;false;true;true;2
+284;Using colours to do homework;https://learnenglishteens.britishcouncil.org/skills/listening/elementary-a2-listening/using-colours-do-homework;Listen to the presentation about using colours to organise homework.;;3;true;true;false;true;true;2
+285;Weather forecast;https://learnenglishteens.britishcouncil.org/skills/listening/elementary-a2-listening/weather-forecast;Listen to the weather forecast.;;3;true;true;false;true;true;2
+286;Work;https://learnenglishteens.britishcouncil.org/skills/listening/elementary-a2-listening/work;Listen to five different people talking about their jobs.;;3;true;true;false;true;true;2
+287;Advice for exams;https://learnenglishteens.britishcouncil.org/skills/listening/intermediate-b1-listening/advice-exams;Listen to the teacher giving students advice for exams.;;5;true;true;false;true;true;2
+288;Amazing facts;https://learnenglishteens.britishcouncil.org/skills/listening/intermediate-b1-listening/amazing-facts;Listen to the conversation about the human body.;;5;true;true;false;true;true;2
+289;Celebrations;https://learnenglishteens.britishcouncil.org/skills/listening/intermediate-b1-listening/celebrations;Listen to the speakers.;;5;true;true;false;true;true;2
+290;Difficult situations;https://learnenglishteens.britishcouncil.org/skills/listening/intermediate-b1-listening/difficult-situations;Listen to the people discussing different problems.;;5;true;true;false;true;true;2
+291;Favourite things;https://learnenglishteens.britishcouncil.org/skills/listening/intermediate-b1-listening/favourite-things;Listen to the speakers describing their favourite things.;;5;true;true;false;true;true;2
+292;Important people;https://learnenglishteens.britishcouncil.org/skills/listening-skills-practice/important-people;Listen to the speakers talking about important people in their lives.;;5;true;true;false;true;true;2
+293;Llamas;https://learnenglishteens.britishcouncil.org/skills/listening/intermediate-b1-listening/llamas;Listen to the zoo guide talking about the llamas.;;5;true;true;false;true;true;2
+294;My favourite film;https://learnenglishteens.britishcouncil.org/skills/listening/intermediate-b1-listening/my-favourite-film;Listen to the speakers talking about their favourite films.;;5;true;true;false;true;true;2
+295;Organising your time;https://learnenglishteens.britishcouncil.org/skills/listening/intermediate-b1-listening/organising-your-time;Listen to the radio interview about the Pomodoro Technique.;;5;true;true;false;true;true;2
+296;Sports centres;https://learnenglishteens.britishcouncil.org/skills/listening/intermediate-b1-listening/sports-centres;Listen to the people introducing two different sports centres.;;5;true;true;false;true;true;2
+297;The weekend;https://learnenglishteens.britishcouncil.org/skills/listening/intermediate-b1-listening/weekend;Listen to the conversation about plans for the weekend.;;5;true;true;false;true;true;2
+298;Theme parks;https://learnenglishteens.britishcouncil.org/skills/listening/intermediate-b1-listening/theme-parks;Listen to the radio interview about theme parks.;;5;true;true;false;true;true;2
+299;Boy bands;https://learnenglishteens.britishcouncil.org/skills/listening/upper-intermediate-b2-listening/boy-bands;Listen to the radio interview about boy bands.;;6;true;true;false;true;true;2
+300;High-achieving teenagers;https://learnenglishteens.britishcouncil.org/skills/listening/upper-intermediate-b2-listening/high-achieving-teenagers;Listen to the radio interview about high-achieving teenagers.;;6;true;true;false;true;true;2
+301;How to improve your memory;https://learnenglishteens.britishcouncil.org/skills/listening/upper-intermediate-b2-listening/how-improve-your-memory;Listen to the radio interview about improving your memory.;;6;true;true;false;true;true;2
+302;How to study;https://learnenglishteens.britishcouncil.org/skills/listening/upper-intermediate-b2-listening/how-study;Listen to the school assembly about how to study.;;6;true;true;false;true;true;2
+303;My hero;https://learnenglishteens.britishcouncil.org/skills/listening/upper-intermediate-b2-listening/my-hero;Listen to the speakers talking about their heroes.;;6;true;true;false;true;true;2
+304;New inventions;https://learnenglishteens.britishcouncil.org/new-inventions;Listen to the radio programme.;;6;true;true;false;true;true;2
+305;Sports interviews;https://learnenglishteens.britishcouncil.org/skills/listening/upper-intermediate-b2-listening/sports-interviews;Listen to the radio interview.;;6;true;true;false;true;true;2
+306;The best job in the world;https://learnenglishteens.britishcouncil.org/skills/listening/upper-intermediate-b2-listening/best-job-world;Listen to the information about the 'best job in the world' competition.;;6;true;true;false;true;true;2
+307;The Filter Bubble - part one;https://learnenglishteens.britishcouncil.org/skills/listening/upper-intermediate-b2-listening/filter-bubble-part-one;Listen to the speaker talking about a book called The Filter Bubble.;;6;true;true;false;true;true;2
+308;The Filter Bubble - part two;https://learnenglishteens.britishcouncil.org/skills/listening/upper-intermediate-b2-listening/filter-bubble-part-two;Listen to the speaker continue talking about a book called The Filter Bubble.;;6;true;true;false;true;true;2
+309;The Maasai and the lions;https://learnenglishteens.britishcouncil.org/skills/listening/upper-intermediate-b2-listening/maasai-lions;Listen to the speaker talking about the Maasai and the lions.;;6;true;true;false;true;true;2
+310;Unusual British festivals;https://learnenglishteens.britishcouncil.org/skills/listening/upper-intermediate-b2-listening/unusual-british-festivals;Listen to the presentation about unusual British festivals.;;6;true;true;false;true;true;2
+311;What kind of student are you?;https://learnenglishteens.britishcouncil.org/skills/listening/upper-intermediate-b2-listening/what-kind-student-are-you;Listen to the teacher giving students a quiz about their study skills.;;6;true;true;false;true;true;2
+312;What's in a name?;https://learnenglishteens.britishcouncil.org/skills/listening/upper-intermediate-b2-listening/whats-name;Listen to the extract from a radio programme about names.;;6;true;true;false;true;true;2
+313;Help others, help yourself;https://learnenglishteens.britishcouncil.org/skills/listening/advanced-c1-listening/help-others-help-yourself;Listen to the radio interview with two young volunteers.;;7;true;true;false;true;true;2
+314;How false information spreads;https://learnenglishteens.britishcouncil.org/skills/listening/advanced-c1-listening/how-false-information-spreads;Listen to the radio interview about how false information spreads.;;7;true;true;false;true;true;2
+315;How to break into the music industry;https://learnenglishteens.britishcouncil.org/skills/listening/advanced-c1-listening/how-break-music-industry;Listen to a talk about how to get a job in the music industry.;;7;true;true;false;true;true;2
+316;Living online;https://learnenglishteens.britishcouncil.org/skills/listening/advanced-c1-listening/living-online;Listen to five different people talking about communication in the digital world.;;7;true;true;false;true;true;2
+317;Man or beast?;https://learnenglishteens.britishcouncil.org/skills/listening/advanced-c1-listening/man-or-beast;Listen to the radio programme about Being a Beast by Charles Foster.;;7;true;true;false;true;true;2
+318;Sleeping for exam success;https://learnenglishteens.britishcouncil.org/skills/listening/advanced-c1-listening/sleeping-exam-success;Listen to the talk about how getting more sleep can help you achieve better exam results.;;7;true;true;false;true;true;2
+319;Teens going veggie;https://learnenglishteens.britishcouncil.org/skills/listening/advanced-c1-listening/teens-going-veggie;Listen to five teenagers talking about becoming vegetarian or vegan.;;7;true;true;false;true;true;2
+320;The benefits of sport;https://learnenglishteens.britishcouncil.org/skills/listening/advanced-c1-listening/benefits-sport;Listen to the classroom conversation about the benefits of sport.;;7;true;true;false;true;true;2
+321;The fear factor;https://learnenglishteens.britishcouncil.org/skills/listening/advanced-c1-listening/fear-factor;Listen to the extracts from different radio programmes talking about fear and phobias.;;7;true;true;false;true;true;2
+322;War's silver lining;https://learnenglishteens.britishcouncil.org/skills/listening/advanced-c1-listening/wars-silver-lining;Listen to the talk about medical advances in World War I.;;7;true;true;false;true;true;2
 
 VIDEO (id_video, id_resource)
 =============================
@@ -591,3 +640,56 @@ LISTENNING (id_listenning, id_resource)
 95;271
 96;272
 97;273
+98;274
+99;275
+100;276
+101;277
+102;278
+103;279
+104;280
+105;281
+106;282
+107;283
+108;284
+109;285
+110;286
+111;287
+112;288
+113;289
+114;290
+115;291
+116;292
+117;293
+118;294
+119;295
+120;296
+121;297
+122;298
+123;299
+124;300
+125;301
+126;302
+127;303
+128;304
+129;305
+130;306
+131;307
+132;308
+133;309
+134;310
+135;311
+136;312
+137;313
+138;314
+139;315
+140;316
+141;317
+142;318
+143;319
+144;320
+145;321
+146;322
+
+
+
+

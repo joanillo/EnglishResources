@@ -11,7 +11,7 @@ cat control_errors.log
 
 # SOURCE (id_source, source)
 # LEVEL (id_level, level)
-# RESOURCE (id_resource, resource, url, description, comments, id_level, active, has_script, has_grammar, has_quiz, has_vocabulary)
+# RESOURCE (id_resource, resource, url, description, comments, id_level, active, has_script, has_grammar, has_quiz, has_vocabulary, id_source)
 # VIDEO (id_video, id_resource)
 # LISTENNING (id_listenning, id_resource)
 
@@ -344,6 +344,55 @@ INSERT INTO RESOURCE(id_resource, resource, url, description, comments, id_level
 INSERT INTO RESOURCE(id_resource, resource, url, description, comments, id_level, active,has_script,has_grammar,has_quiz,has_vocabulary, id_source) VALUES(271,'Spelling names','https://learnenglishteens.britishcouncil.org/skills/listening/beginner-a1-listening/spelling-names','',NULL,1,true,true,false,true,true,2);
 INSERT INTO RESOURCE(id_resource, resource, url, description, comments, id_level, active,has_script,has_grammar,has_quiz,has_vocabulary, id_source) VALUES(272,'Study tips','https://learnenglishteens.britishcouncil.org/skills/listening/beginner-a1-listening/study-tips','',NULL,1,true,true,false,true,true,2);
 INSERT INTO RESOURCE(id_resource, resource, url, description, comments, id_level, active,has_script,has_grammar,has_quiz,has_vocabulary, id_source) VALUES(273,'Understanding numbers','https://learnenglishteens.britishcouncil.org/skills/listening/beginner-a1-listening/understanding-numbers','',NULL,1,true,true,false,true,true,2);
+INSERT INTO RESOURCE(id_resource, resource, url, description, comments, id_level, active,has_script,has_grammar,has_quiz,has_vocabulary, id_source) VALUES(274,'Eating out','https://learnenglishteens.britishcouncil.org/skills/listening/elementary-a2-listening/eating-out','Listen carefully to the conversation in a restaurant.',NULL,3,true,true,false,true,true,2);
+INSERT INTO RESOURCE(id_resource, resource, url, description, comments, id_level, active,has_script,has_grammar,has_quiz,has_vocabulary, id_source) VALUES(275,'Free time','https://learnenglishteens.britishcouncil.org/skills/listening/elementary-a2-listening/free-time','Listen to Tyrone calling the staff at his local swimming pool.',NULL,3,true,true,false,true,true,2);
+INSERT INTO RESOURCE(id_resource, resource, url, description, comments, id_level, active,has_script,has_grammar,has_quiz,has_vocabulary, id_source) VALUES(276,'Giving directions','https://learnenglishteens.britishcouncil.org/skills/listening/elementary-a2-listening/giving-directions','Look at the map and listen to the directions.',NULL,3,true,true,false,true,true,2);
+INSERT INTO RESOURCE(id_resource, resource, url, description, comments, id_level, active,has_script,has_grammar,has_quiz,has_vocabulary, id_source) VALUES(277,'Going to the cinema','https://learnenglishteens.britishcouncil.org/skills/listening/elementary-a2-listening/going-cinema','Listen to Mario and Tamara talking about what film they want to see.',NULL,3,true,true,false,true,true,2);
+INSERT INTO RESOURCE(id_resource, resource, url, description, comments, id_level, active,has_script,has_grammar,has_quiz,has_vocabulary, id_source) VALUES(278,'Shopping for clothes','https://learnenglishteens.britishcouncil.org/skills/listening/elementary-a2-listening/shopping-clothes','Listen to the conversation between a customer and a shop assistant.',NULL,3,true,true,false,true,true,2);
+INSERT INTO RESOURCE(id_resource, resource, url, description, comments, id_level, active,has_script,has_grammar,has_quiz,has_vocabulary, id_source) VALUES(279,'Stop wasting time','https://learnenglishteens.britishcouncil.org/skills/listening/elementary-a2-listening/stop-wasting-time','Listen to the conversation about how to study better.',NULL,3,true,true,false,true,true,2);
+INSERT INTO RESOURCE(id_resource, resource, url, description, comments, id_level, active,has_script,has_grammar,has_quiz,has_vocabulary, id_source) VALUES(280,'Taking notes','https://learnenglishteens.britishcouncil.org/skills/listening/elementary-a2-listening/taking-notes','Listen to the conversation about taking notes.',NULL,3,true,true,false,true,true,2);
+INSERT INTO RESOURCE(id_resource, resource, url, description, comments, id_level, active,has_script,has_grammar,has_quiz,has_vocabulary, id_source) VALUES(281,'Tour of London','https://learnenglishteens.britishcouncil.org/skills/listening/elementary-a2-listening/tour-london','Take a tour of London by listening to this tour guide.',NULL,3,true,true,false,true,true,2);
+INSERT INTO RESOURCE(id_resource, resource, url, description, comments, id_level, active,has_script,has_grammar,has_quiz,has_vocabulary, id_source) VALUES(282,'Trains and travel','https://learnenglishteens.britishcouncil.org/skills/listening/elementary-a2-listening/trains-travel','Listen to five different conversations at a train station.',NULL,3,true,true,false,true,true,2);
+INSERT INTO RESOURCE(id_resource, resource, url, description, comments, id_level, active,has_script,has_grammar,has_quiz,has_vocabulary, id_source) VALUES(283,'Travelling abroad','https://learnenglishteens.britishcouncil.org/skills/listening/elementary-a2-listening/travelling-abroad','Listen to the five airport announcements.',NULL,3,true,true,false,true,true,2);
+INSERT INTO RESOURCE(id_resource, resource, url, description, comments, id_level, active,has_script,has_grammar,has_quiz,has_vocabulary, id_source) VALUES(284,'Using colours to do homework','https://learnenglishteens.britishcouncil.org/skills/listening/elementary-a2-listening/using-colours-do-homework','Listen to the presentation about using colours to organise homework.',NULL,3,true,true,false,true,true,2);
+INSERT INTO RESOURCE(id_resource, resource, url, description, comments, id_level, active,has_script,has_grammar,has_quiz,has_vocabulary, id_source) VALUES(285,'Weather forecast','https://learnenglishteens.britishcouncil.org/skills/listening/elementary-a2-listening/weather-forecast','Listen to the weather forecast.',NULL,3,true,true,false,true,true,2);
+INSERT INTO RESOURCE(id_resource, resource, url, description, comments, id_level, active,has_script,has_grammar,has_quiz,has_vocabulary, id_source) VALUES(286,'Work','https://learnenglishteens.britishcouncil.org/skills/listening/elementary-a2-listening/work','Listen to five different people talking about their jobs.',NULL,3,true,true,false,true,true,2);
+INSERT INTO RESOURCE(id_resource, resource, url, description, comments, id_level, active,has_script,has_grammar,has_quiz,has_vocabulary, id_source) VALUES(287,'Advice for exams','https://learnenglishteens.britishcouncil.org/skills/listening/intermediate-b1-listening/advice-exams','Listen to the teacher giving students advice for exams.',NULL,5,true,true,false,true,true,2);
+INSERT INTO RESOURCE(id_resource, resource, url, description, comments, id_level, active,has_script,has_grammar,has_quiz,has_vocabulary, id_source) VALUES(288,'Amazing facts','https://learnenglishteens.britishcouncil.org/skills/listening/intermediate-b1-listening/amazing-facts','Listen to the conversation about the human body.',NULL,5,true,true,false,true,true,2);
+INSERT INTO RESOURCE(id_resource, resource, url, description, comments, id_level, active,has_script,has_grammar,has_quiz,has_vocabulary, id_source) VALUES(289,'Celebrations','https://learnenglishteens.britishcouncil.org/skills/listening/intermediate-b1-listening/celebrations','Listen to the speakers.',NULL,5,true,true,false,true,true,2);
+INSERT INTO RESOURCE(id_resource, resource, url, description, comments, id_level, active,has_script,has_grammar,has_quiz,has_vocabulary, id_source) VALUES(290,'Difficult situations','https://learnenglishteens.britishcouncil.org/skills/listening/intermediate-b1-listening/difficult-situations','Listen to the people discussing different problems.',NULL,5,true,true,false,true,true,2);
+INSERT INTO RESOURCE(id_resource, resource, url, description, comments, id_level, active,has_script,has_grammar,has_quiz,has_vocabulary, id_source) VALUES(291,'Favourite things','https://learnenglishteens.britishcouncil.org/skills/listening/intermediate-b1-listening/favourite-things','Listen to the speakers describing their favourite things.',NULL,5,true,true,false,true,true,2);
+INSERT INTO RESOURCE(id_resource, resource, url, description, comments, id_level, active,has_script,has_grammar,has_quiz,has_vocabulary, id_source) VALUES(292,'Important people','https://learnenglishteens.britishcouncil.org/skills/listening-skills-practice/important-people','Listen to the speakers talking about important people in their lives.',NULL,5,true,true,false,true,true,2);
+INSERT INTO RESOURCE(id_resource, resource, url, description, comments, id_level, active,has_script,has_grammar,has_quiz,has_vocabulary, id_source) VALUES(293,'Llamas','https://learnenglishteens.britishcouncil.org/skills/listening/intermediate-b1-listening/llamas','Listen to the zoo guide talking about the llamas.',NULL,5,true,true,false,true,true,2);
+INSERT INTO RESOURCE(id_resource, resource, url, description, comments, id_level, active,has_script,has_grammar,has_quiz,has_vocabulary, id_source) VALUES(294,'My favourite film','https://learnenglishteens.britishcouncil.org/skills/listening/intermediate-b1-listening/my-favourite-film','Listen to the speakers talking about their favourite films.',NULL,5,true,true,false,true,true,2);
+INSERT INTO RESOURCE(id_resource, resource, url, description, comments, id_level, active,has_script,has_grammar,has_quiz,has_vocabulary, id_source) VALUES(295,'Organising your time','https://learnenglishteens.britishcouncil.org/skills/listening/intermediate-b1-listening/organising-your-time','Listen to the radio interview about the Pomodoro Technique.',NULL,5,true,true,false,true,true,2);
+INSERT INTO RESOURCE(id_resource, resource, url, description, comments, id_level, active,has_script,has_grammar,has_quiz,has_vocabulary, id_source) VALUES(296,'Sports centres','https://learnenglishteens.britishcouncil.org/skills/listening/intermediate-b1-listening/sports-centres','Listen to the people introducing two different sports centres.',NULL,5,true,true,false,true,true,2);
+INSERT INTO RESOURCE(id_resource, resource, url, description, comments, id_level, active,has_script,has_grammar,has_quiz,has_vocabulary, id_source) VALUES(297,'The weekend','https://learnenglishteens.britishcouncil.org/skills/listening/intermediate-b1-listening/weekend','Listen to the conversation about plans for the weekend.',NULL,5,true,true,false,true,true,2);
+INSERT INTO RESOURCE(id_resource, resource, url, description, comments, id_level, active,has_script,has_grammar,has_quiz,has_vocabulary, id_source) VALUES(298,'Theme parks','https://learnenglishteens.britishcouncil.org/skills/listening/intermediate-b1-listening/theme-parks','Listen to the radio interview about theme parks.',NULL,5,true,true,false,true,true,2);
+INSERT INTO RESOURCE(id_resource, resource, url, description, comments, id_level, active,has_script,has_grammar,has_quiz,has_vocabulary, id_source) VALUES(299,'Boy bands','https://learnenglishteens.britishcouncil.org/skills/listening/upper-intermediate-b2-listening/boy-bands','Listen to the radio interview about boy bands.',NULL,6,true,true,false,true,true,2);
+INSERT INTO RESOURCE(id_resource, resource, url, description, comments, id_level, active,has_script,has_grammar,has_quiz,has_vocabulary, id_source) VALUES(300,'High-achieving teenagers','https://learnenglishteens.britishcouncil.org/skills/listening/upper-intermediate-b2-listening/high-achieving-teenagers','Listen to the radio interview about high-achieving teenagers.',NULL,6,true,true,false,true,true,2);
+INSERT INTO RESOURCE(id_resource, resource, url, description, comments, id_level, active,has_script,has_grammar,has_quiz,has_vocabulary, id_source) VALUES(301,'How to improve your memory','https://learnenglishteens.britishcouncil.org/skills/listening/upper-intermediate-b2-listening/how-improve-your-memory','Listen to the radio interview about improving your memory.',NULL,6,true,true,false,true,true,2);
+INSERT INTO RESOURCE(id_resource, resource, url, description, comments, id_level, active,has_script,has_grammar,has_quiz,has_vocabulary, id_source) VALUES(302,'How to study','https://learnenglishteens.britishcouncil.org/skills/listening/upper-intermediate-b2-listening/how-study','Listen to the school assembly about how to study.',NULL,6,true,true,false,true,true,2);
+INSERT INTO RESOURCE(id_resource, resource, url, description, comments, id_level, active,has_script,has_grammar,has_quiz,has_vocabulary, id_source) VALUES(303,'My hero','https://learnenglishteens.britishcouncil.org/skills/listening/upper-intermediate-b2-listening/my-hero','Listen to the speakers talking about their heroes.',NULL,6,true,true,false,true,true,2);
+INSERT INTO RESOURCE(id_resource, resource, url, description, comments, id_level, active,has_script,has_grammar,has_quiz,has_vocabulary, id_source) VALUES(304,'New inventions','https://learnenglishteens.britishcouncil.org/new-inventions','Listen to the radio programme.',NULL,6,true,true,false,true,true,2);
+INSERT INTO RESOURCE(id_resource, resource, url, description, comments, id_level, active,has_script,has_grammar,has_quiz,has_vocabulary, id_source) VALUES(305,'Sports interviews','https://learnenglishteens.britishcouncil.org/skills/listening/upper-intermediate-b2-listening/sports-interviews','Listen to the radio interview.',NULL,6,true,true,false,true,true,2);
+INSERT INTO RESOURCE(id_resource, resource, url, description, comments, id_level, active,has_script,has_grammar,has_quiz,has_vocabulary, id_source) VALUES(306,'The best job in the world','https://learnenglishteens.britishcouncil.org/skills/listening/upper-intermediate-b2-listening/best-job-world','Listen to the information about the ''best job in the world'' competition.',NULL,6,true,true,false,true,true,2);
+INSERT INTO RESOURCE(id_resource, resource, url, description, comments, id_level, active,has_script,has_grammar,has_quiz,has_vocabulary, id_source) VALUES(307,'The Filter Bubble - part one','https://learnenglishteens.britishcouncil.org/skills/listening/upper-intermediate-b2-listening/filter-bubble-part-one','Listen to the speaker talking about a book called The Filter Bubble.',NULL,6,true,true,false,true,true,2);
+INSERT INTO RESOURCE(id_resource, resource, url, description, comments, id_level, active,has_script,has_grammar,has_quiz,has_vocabulary, id_source) VALUES(308,'The Filter Bubble - part two','https://learnenglishteens.britishcouncil.org/skills/listening/upper-intermediate-b2-listening/filter-bubble-part-two','Listen to the speaker continue talking about a book called The Filter Bubble.',NULL,6,true,true,false,true,true,2);
+INSERT INTO RESOURCE(id_resource, resource, url, description, comments, id_level, active,has_script,has_grammar,has_quiz,has_vocabulary, id_source) VALUES(309,'The Maasai and the lions','https://learnenglishteens.britishcouncil.org/skills/listening/upper-intermediate-b2-listening/maasai-lions','Listen to the speaker talking about the Maasai and the lions.',NULL,6,true,true,false,true,true,2);
+INSERT INTO RESOURCE(id_resource, resource, url, description, comments, id_level, active,has_script,has_grammar,has_quiz,has_vocabulary, id_source) VALUES(310,'Unusual British festivals','https://learnenglishteens.britishcouncil.org/skills/listening/upper-intermediate-b2-listening/unusual-british-festivals','Listen to the presentation about unusual British festivals.',NULL,6,true,true,false,true,true,2);
+INSERT INTO RESOURCE(id_resource, resource, url, description, comments, id_level, active,has_script,has_grammar,has_quiz,has_vocabulary, id_source) VALUES(311,'What kind of student are you?','https://learnenglishteens.britishcouncil.org/skills/listening/upper-intermediate-b2-listening/what-kind-student-are-you','Listen to the teacher giving students a quiz about their study skills.',NULL,6,true,true,false,true,true,2);
+INSERT INTO RESOURCE(id_resource, resource, url, description, comments, id_level, active,has_script,has_grammar,has_quiz,has_vocabulary, id_source) VALUES(312,'What''s in a name?','https://learnenglishteens.britishcouncil.org/skills/listening/upper-intermediate-b2-listening/whats-name','Listen to the extract from a radio programme about names.',NULL,6,true,true,false,true,true,2);
+INSERT INTO RESOURCE(id_resource, resource, url, description, comments, id_level, active,has_script,has_grammar,has_quiz,has_vocabulary, id_source) VALUES(313,'Help others, help yourself','https://learnenglishteens.britishcouncil.org/skills/listening/advanced-c1-listening/help-others-help-yourself','Listen to the radio interview with two young volunteers.',NULL,7,true,true,false,true,true,2);
+INSERT INTO RESOURCE(id_resource, resource, url, description, comments, id_level, active,has_script,has_grammar,has_quiz,has_vocabulary, id_source) VALUES(314,'How false information spreads','https://learnenglishteens.britishcouncil.org/skills/listening/advanced-c1-listening/how-false-information-spreads','Listen to the radio interview about how false information spreads.',NULL,7,true,true,false,true,true,2);
+INSERT INTO RESOURCE(id_resource, resource, url, description, comments, id_level, active,has_script,has_grammar,has_quiz,has_vocabulary, id_source) VALUES(315,'How to break into the music industry','https://learnenglishteens.britishcouncil.org/skills/listening/advanced-c1-listening/how-break-music-industry','Listen to a talk about how to get a job in the music industry.',NULL,7,true,true,false,true,true,2);
+INSERT INTO RESOURCE(id_resource, resource, url, description, comments, id_level, active,has_script,has_grammar,has_quiz,has_vocabulary, id_source) VALUES(316,'Living online','https://learnenglishteens.britishcouncil.org/skills/listening/advanced-c1-listening/living-online','Listen to five different people talking about communication in the digital world.',NULL,7,true,true,false,true,true,2);
+INSERT INTO RESOURCE(id_resource, resource, url, description, comments, id_level, active,has_script,has_grammar,has_quiz,has_vocabulary, id_source) VALUES(317,'Man or beast?','https://learnenglishteens.britishcouncil.org/skills/listening/advanced-c1-listening/man-or-beast','Listen to the radio programme about Being a Beast by Charles Foster.',NULL,7,true,true,false,true,true,2);
+INSERT INTO RESOURCE(id_resource, resource, url, description, comments, id_level, active,has_script,has_grammar,has_quiz,has_vocabulary, id_source) VALUES(318,'Sleeping for exam success','https://learnenglishteens.britishcouncil.org/skills/listening/advanced-c1-listening/sleeping-exam-success','Listen to the talk about how getting more sleep can help you achieve better exam results.',NULL,7,true,true,false,true,true,2);
+INSERT INTO RESOURCE(id_resource, resource, url, description, comments, id_level, active,has_script,has_grammar,has_quiz,has_vocabulary, id_source) VALUES(319,'Teens going veggie','https://learnenglishteens.britishcouncil.org/skills/listening/advanced-c1-listening/teens-going-veggie','Listen to five teenagers talking about becoming vegetarian or vegan.',NULL,7,true,true,false,true,true,2);
+INSERT INTO RESOURCE(id_resource, resource, url, description, comments, id_level, active,has_script,has_grammar,has_quiz,has_vocabulary, id_source) VALUES(320,'The benefits of sport','https://learnenglishteens.britishcouncil.org/skills/listening/advanced-c1-listening/benefits-sport','Listen to the classroom conversation about the benefits of sport.',NULL,7,true,true,false,true,true,2);
+INSERT INTO RESOURCE(id_resource, resource, url, description, comments, id_level, active,has_script,has_grammar,has_quiz,has_vocabulary, id_source) VALUES(321,'The fear factor','https://learnenglishteens.britishcouncil.org/skills/listening/advanced-c1-listening/fear-factor','Listen to the extracts from different radio programmes talking about fear and phobias.',NULL,7,true,true,false,true,true,2);
+INSERT INTO RESOURCE(id_resource, resource, url, description, comments, id_level, active,has_script,has_grammar,has_quiz,has_vocabulary, id_source) VALUES(322,'War''s silver lining','https://learnenglishteens.britishcouncil.org/skills/listening/advanced-c1-listening/wars-silver-lining','Listen to the talk about medical advances in World War I.',NULL,7,true,true,false,true,true,2);
 
 
 INSERT INTO VIDEO VALUES(1,1);
@@ -620,5 +669,54 @@ INSERT INTO LISTENNING VALUES(94,270);
 INSERT INTO LISTENNING VALUES(95,271);
 INSERT INTO LISTENNING VALUES(96,272);
 INSERT INTO LISTENNING VALUES(97,273);
+INSERT INTO LISTENNING VALUES(98,274);
+INSERT INTO LISTENNING VALUES(99,275);
+INSERT INTO LISTENNING VALUES(100,276);
+INSERT INTO LISTENNING VALUES(101,277);
+INSERT INTO LISTENNING VALUES(102,278);
+INSERT INTO LISTENNING VALUES(103,279);
+INSERT INTO LISTENNING VALUES(104,280);
+INSERT INTO LISTENNING VALUES(105,281);
+INSERT INTO LISTENNING VALUES(106,282);
+INSERT INTO LISTENNING VALUES(107,283);
+INSERT INTO LISTENNING VALUES(108,284);
+INSERT INTO LISTENNING VALUES(109,285);
+INSERT INTO LISTENNING VALUES(110,286);
+INSERT INTO LISTENNING VALUES(111,287);
+INSERT INTO LISTENNING VALUES(112,288);
+INSERT INTO LISTENNING VALUES(113,289);
+INSERT INTO LISTENNING VALUES(114,290);
+INSERT INTO LISTENNING VALUES(115,291);
+INSERT INTO LISTENNING VALUES(116,292);
+INSERT INTO LISTENNING VALUES(117,293);
+INSERT INTO LISTENNING VALUES(118,294);
+INSERT INTO LISTENNING VALUES(119,295);
+INSERT INTO LISTENNING VALUES(120,296);
+INSERT INTO LISTENNING VALUES(121,297);
+INSERT INTO LISTENNING VALUES(122,298);
+INSERT INTO LISTENNING VALUES(123,299);
+INSERT INTO LISTENNING VALUES(124,300);
+INSERT INTO LISTENNING VALUES(125,301);
+INSERT INTO LISTENNING VALUES(126,302);
+INSERT INTO LISTENNING VALUES(127,303);
+INSERT INTO LISTENNING VALUES(128,304);
+INSERT INTO LISTENNING VALUES(129,305);
+INSERT INTO LISTENNING VALUES(130,306);
+INSERT INTO LISTENNING VALUES(131,307);
+INSERT INTO LISTENNING VALUES(132,308);
+INSERT INTO LISTENNING VALUES(133,309);
+INSERT INTO LISTENNING VALUES(134,310);
+INSERT INTO LISTENNING VALUES(135,311);
+INSERT INTO LISTENNING VALUES(136,312);
+INSERT INTO LISTENNING VALUES(137,313);
+INSERT INTO LISTENNING VALUES(138,314);
+INSERT INTO LISTENNING VALUES(139,315);
+INSERT INTO LISTENNING VALUES(140,316);
+INSERT INTO LISTENNING VALUES(141,317);
+INSERT INTO LISTENNING VALUES(142,318);
+INSERT INTO LISTENNING VALUES(143,319);
+INSERT INTO LISTENNING VALUES(144,320);
+INSERT INTO LISTENNING VALUES(145,321);
+INSERT INTO LISTENNING VALUES(146,322);
 
 

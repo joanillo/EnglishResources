@@ -38,3 +38,8 @@ i com s'utilitza?
 $ git clone https://github.com/username/repo.git
 Username: your_username
 Password: your_token (en comptes del password que feia servir)
+
+====
+Paginació:
+https://webdamn.com/advanced-ajax-pagination-with-php-and-mysql/
+

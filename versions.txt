@@ -13,3 +13,16 @@ v2
 v3
 -----------
 -bootstrap. Disseny modern i responsive
+
+v4
+-----------
+-taula LISTENNING -> AUDIO
+-taula nova, recurs nou: TEXT
+-taula nova: SKILL (listenning, reading, writing). Un recurs (RESOURCE) treballa capacitats (SKILL)
+
+v5
+-----------
+-TODO: La càrrega de levels i skills s'ha de fer accedint a la bd (no cal de moment)
+-TODO: paginació
+-TODO: treure startFrom en el json de processar.php
+-TODO: treure el valor en el processar.php anterior a v5
