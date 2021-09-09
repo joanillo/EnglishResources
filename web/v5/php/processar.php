@@ -74,7 +74,11 @@ if ($first_query == true) {
 		$resultset = mysqli_query($conn,$sqlfirst);
 		$row = mysqli_fetch_array($resultset, MYSQLI_ASSOC);
 		$num = $row["num"];
-		$num_pages = intdiv($num,$divs_per_page) + 1;
+		if ($num%$divs_per_page == 0) {
+			$num_pages = intdiv($num,$divs_per_page);
+		} else {
+			$num_pages = intdiv($num,$divs_per_page) + 1;
+		}
 		mysqli_free_result($resultset);
 }
 

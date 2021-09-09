@@ -22,7 +22,7 @@ v4
 
 v5
 -----------
+-paginació
 -TODO: La càrrega de levels i skills s'ha de fer accedint a la bd (no cal de moment)
--TODO: paginació
--TODO: treure startFrom en el json de processar.php
--TODO: treure el valor en el processar.php anterior a v5
+-TODO: comprovar que no hi ha el pwd com a textpla
+-TODO: gitignore de .pwd i altres
